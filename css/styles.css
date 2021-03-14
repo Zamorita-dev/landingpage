@@ -1,0 +1,41 @@
+/*
+    1. Posicionamiento
+    2. Modelo de caja
+    3. Tipografia
+    4. Visuales
+    5. Otros
+*/
+:root {
+  /*Colores*/
+  --fondo: #674bb1;
+  --color-texto: #fffffc;
+  --texto-boton: #6b5f93;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--fondo);
+}
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: initial;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+}
+header img {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+}
+main .imagen img {
+  width: 100%;
+  min-width: 320px;
+}
