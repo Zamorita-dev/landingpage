@@ -7,7 +7,7 @@
 */
 :root {
   /*Colores*/
-  --fondo: #674bb1;
+  --fondo: hsl(257, 40%, 49%);
   --color-texto: #fffffc;
   --texto-boton: #6b5f93;
 }
@@ -35,7 +35,10 @@ header img {
   height: auto;
   margin-top: 20px;
 }
-main .imagen img {
+.main-imagen img {
   width: 100%;
   min-width: 320px;
+}
+.main-contenido {
+  margin: 30px;
 }
