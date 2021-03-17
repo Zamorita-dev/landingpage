@@ -20,6 +20,7 @@ html {
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--fondo);
+  background-image: url(../images/bg-mobile.svg);
 }
 header {
   position: relative;
@@ -33,12 +34,38 @@ header {
 header img {
   width: 150px;
   height: auto;
+  margin: 20px;
+}
+main {
+  text-align: center;
+}
+.main-imagen {
   margin-top: 20px;
 }
 .main-imagen img {
-  width: 100%;
+  width: 80%;
   min-width: 320px;
 }
 .main-contenido {
   margin: 30px;
+  color: white;
+}
+.main-contenido h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.main-contenido p {
+  font-size: 1.5rem;
+  padding: 2px;
+  margin-bottom: 15px;
+}
+.button {
+  width: 200px;
+  min-width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: var(--texto-boton);
+  font-size: 1.6rem;
 }
